@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tetris </title>
+		<script src="COOKIE.js"></script>
+		<script src="tetris.js"></script>
+		<style>
+			html, body{
+				margin:0px;
+				font-family: sans-serif;
+				text-align: center;
+				background-color:#eee;
+				color:#eee;
+				height: 100vh;
+				overflow:hidden;
+
+				background: #eee;
+				background: -webkit-linear-gradient(#c9d8ef, #eee);
+				background: -o-linear-gradient(#c9d8ef, #eee);
+				background: -moz-linear-gradient(#c9d8ef, #eee);
+				background: linear-gradient(#c9d8ef, #eee);
+			}
+			canvas{
+				margin:auto;
+				display: flex;
+				width: 50vh;
+				height: 83vh;
+			}
+			.line{
+				font-size: 8vh;
+				line-height: 1.5em;
+				width: 50vh;
+				margin: auto;
+				margin-top: 2vh;
+				margin-bottom:1vh;
+				background-color:#111;
+			}
+		</style>
+		<script>
+			
+		</script>
+	</head>
+	<body>
+		<div class="line">
+		<div id="score">0</div>
+		</div>
+		<canvas id="canvas" width="360" height="600"></canvas>
+	</body>
+</html>
